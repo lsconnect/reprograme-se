@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PET SHOP</title>
+</head>
+
+<body>
+    <h1>Orçamento PET SHOP</h1>
+    <hr>
+    <form method="POST" action="/contato/cotar">
+        <p>
+            <label for="inputDono">Nome Completo</label><br>
+            <input type="text" name="fullName" id="inputDono">
+        </p>
+        <fieldset>
+            <legend>Tipo de Animal</legend>
+            <input type="radio" name="animalType" id="rdCachorro" value="CA">
+            <label for="rdCachorro">Cachorro</label><br>
+            <input type="radio" name="animalType" id="rdCoelho" value="CO">
+            <label for="rdCoelho">Coelho</label><br>
+            <input type="radio" name="animalType" id="rdGato" value="GA">
+            <label for="rdGato">Gato</label><br>
+            <input type="radio" name="animalType" id="rdPassaro" value="PA">
+            <label for="rdPassaro">Pássaro</label>
+        </fieldset>
+
+        <p>
+            <label for="inputService">Tipo de Serviço</label><br>
+            <input type="text" name="serviceType" id="inputService">
+        </p>
+
+        <p>
+            <label for="txtNotes">Observações</label><br>
+            <textarea name="obs" id="txtNotes" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+
+</html>

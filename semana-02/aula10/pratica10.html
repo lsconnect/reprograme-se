@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Cadastro de Cliente</h1>
+    <hr>
+        <form method="get" action="/cliente/cadastrar">
+                <p>
+                <label for="inputName">Nome</label><br>
+                <input type="text" id="inputName" name="clientName" required>
+            </p>
+            <p>
+                <label for="inputEmail">E-mail</label><br>
+                <input type="text" id="inputEmail" name="emailAddress" required>
+            </p>
+            <p>
+                <label for="inputURL">URL Portfolio Online</label><br>
+                <input type="text" id="inputURL" name="urlPortfolio">
+            </p>
+            <p>
+                <label for="dateNasc">Data de Nascimento</label><br>
+                <input type="date" name="nascimento" id="dateNasc" required>
+            </p>
+            <p>
+                <label for="inputDependentes">Qtde Dependentes</label><br>
+                <input type="number" name="qtDependentes" id="inputDependentes">
+            </p>
+            <p>
+                <label for="corPreferida">Cor Preferida</label><br>
+                <input type="color" name="cor" id="corPreferida">
+            </p>
+            <p>
+                <label for="numTelefone">Telefone</label><br>
+                <input type="tel" name="telefone" id="numTelefone">
+            </p>
+            <p>
+                <input type="checkbox" name="promo" id="checkPromo">
+                <label for="checkPromo">Receber Promoções</label>
+            </p>
+
+            <p>
+                <label for="slctEstado">Estado</label><br>
+                <select name="estado" id="slctEstado" required>
+                    <option selected disabled>Selecione...</option>
+                    <optgroup label="Centro Oeste">
+                        <option value="DF">Distrito Federal</option>
+                        <option value="GO">Goias</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="SE">Sergipe</option>
+                    </optgroup>
+                    <optgroup label="Norte">
+                        <option value="AC">Acre</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="PA">Pará</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="TO">Tocantins</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="txtBio">Mini-Biografia</label><br>
+                <textarea name="biografia" id="txtBio" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+</body>
+
+</html>
