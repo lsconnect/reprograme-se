@@ -11,7 +11,7 @@ body {
     background-color: #efe2bb;
 }
 
-#header {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,11 +20,27 @@ body {
     background-image: linear-gradient(#4055a0, #333);
 }
 
-#header table {
+#header-picture {
+    width: 140px;
+    border-radius: 50%;
+}
+
+#name {
+text-indent: 30px;
+color: white;
+}
+
+#cargo {
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 30px;
+    color: white;
+}
+
+header table {
     width: 80%;
 }
 
-#main {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +58,7 @@ body {
 
 #menu a:link {
     font-family: 'Caveat', cursive;
-    font-size: 32px;
+    font-size: 20px;
     text-decoration: none;
     color: #333;
     padding: 10px;
@@ -50,17 +66,25 @@ body {
 
 #menu a:hover {
     text-decoration: none;
-    border: solid 1px #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #00f;
+    color: #fff;
+}
+
+#active a {
+    text-decoration: none;
     border-radius: 10px;
     padding: 10px;
     background-color: #333;
     color: #fff;
 }
 
-#hero-section {
-    
-}
-
-#footer {
+footer {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px #333;
 }
