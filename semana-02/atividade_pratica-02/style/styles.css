@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@400;700;800&display=swap');
 
+/* !!!remover
+table,
+tr,
+td {
+    border: 1px solid black;
+} */
+
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     color: #333;
 }
 
+body {
+    background-color: #efe2bb;
+}
+
 header {
+    width: 100%;
     background-image: linear-gradient(#9ed23d, black);
     display: flex;
     align-items: center;
@@ -16,7 +29,26 @@ header {
 }
 
 header img {
+    width: 115px;
     border-radius: 50%;
+}
+
+table {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+footer {
+    border-top: 1px solid black;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 245px;
 }
 
 #name {
@@ -31,19 +63,14 @@ header img {
     color: white;
 }
 
-body {
-    background-color: #efe2bb;
-}
-
-table {
-    width: 80%;
-    margin: 0 10% 0 10%;
-}
-
-.menu ul li {
-    display: inline-block;
+ul {
     list-style-type: none;
-    margin: 0px 20px;
+}
+
+li {
+    display: inline-block;
+    padding-left: 3.5em;
+    line-height: 35px;
 }
 
 .menu a {
@@ -53,11 +80,8 @@ table {
     display: inline-block;
     color: #333;
     font-size: 32px;
-}
-
-.menu a:link {
     text-decoration: none;
-    padding: 10px 38px;
+    padding: 10px 30px;
 }
 
 .menu a:hover {
@@ -68,30 +92,30 @@ table {
 
 #active {
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 10px;
     background-color: #333;
     color: #fff;
 }
 
-.hero-section td, img {
+.hero-txt {
+    background-color: #333;
+    text-align: left;
+    width: 500px;
     border-radius: 20px;
 }
 
-.hero-txt {
-    background-color: #333;
-    padding-left: 30px;
-    text-align: left;
-}
-
 .hero-txt h1 {
+    margin-left: 20px;
     font-size: 42px;
     color: orange;
 }
 
-.hero-txt h2, .hero-txt h3 {
+.hero-txt h2,
+.hero-txt h3 {
     font-family: 'Caveat', cursive;
     font-size: 32px;
+    margin-left: 20px;
     color: #fff;
 }
 
@@ -102,40 +126,63 @@ table {
     font-weight: bold;
     background-color: #9ed23d;
     padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.hero-img img {
     border-radius: 10px;
+    width: 500px;
+    max-height: 300px;
 }
 
 .about {
     line-height: 50px;
-    color: #333;
-}
-
-.about h3 {
-    font-size: 22px;
 }
 
 .about a {
     text-decoration: none;
     font-weight: bold;
-    color: #333;
 }
 
-footer {
-    border-top: 1px solid black;
-    color: black;
-    font-weight: bold;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-width: 100%;
-height: 245px;
+.habilities td {
+    padding: 20px 0 10px 0;
+    text-align: left;
 }
 
-/* temp */
-table,
-tr,
-td {
-    border: 1px solid black;
+.progress {
+    height: 30px;
+}
+
+.year {
+    width: 14%;
+    white-space: nowrap;
+}
+
+#assunto, #nome, #email, #telefone, #mensagem {
+    width: 250px;
+}
+
+#mensagem {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#submit-button {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #9ed23d;
+    cursor: pointer;
+}
+
+.contact td {
+    border-top: 1px solid #666;
+}
+
+.contact  li {
+    padding-left: 0;
+    margin-bottom: 1px;
+    display: block;
 }

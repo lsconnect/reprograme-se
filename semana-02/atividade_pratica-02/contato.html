@@ -36,24 +36,27 @@
             </td>
         </tr>
     </table>
-    <table>
+    <table style="border-spacing: 30px;">
         <tr>
             <td>
                 <h1>Entre em contato!</h1>
-                <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei.
+                <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei.<br>
                     Será um prazer lhe atender!
                 </p>
             </td>
         </tr>
     </table>
-    <table>
+    <table style="border-spacing: 30px;">
         <tr>
             <td>
                 <form>
                     <p>
-                        <label for="subject">Assunto</label><br>
-                        <select name="assunto" id="subject">
-                            <option value="">Selecione o assunto</option>
+                        <label for="assunto">Assunto</label><br>
+                        <select name="assunto" id="assunto" required>
+                            <option value="" disabled selected>Selecione o assunto...</option>
+                            <option value="Consult">Consultoria</option>
+                            <option value="Blog">Blog</option>
+                            <option value="Outro">Outro</option>
                         </select>
                     </p>
                     <p>
@@ -62,27 +65,26 @@
                     </p>
                     <p>
                         <label for="email">Email</label><br>
-                        <input type="email" name="email" id="email" placeholder="beltrano@gmail.com">
+                        <input type="email" name="email" id="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" placeholder="beltrano@gmail.com">
                     </p>
                     <p>
                         <label for="telefone">Telefone</label><br>
-                        <input type="tel" name="telefone" id="telefone">
+                        <input type="tel" name="telefone" id="telefone" pattern="\(\d{2}\)\d{4}-\d{4}" placeholder="(28) 99999-9999">
                     </p>
                     <p>
                         <label for="mensagem">Mensagem</label><br>
                         <textarea name="message" id="mensagem" cols="30" rows="10"></textarea>
                     </p>
                     <p>
-                        <input type="reset" value="Limpar">
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Enviar" id="submit-button">
                     </p>
                 </form>
             </td>
         </tr>
-        <tr>
+        <tr class="contact">
             <td>
                 <ul>
-                    <li>Outras formas de contato:</li>
+                    <li><h4>Outras formas de contato:</h4></li>
                     <li>Residente em Cachoeiro de Itapemirim/ES</li>
                     <li><a href="mailto:contato@lsconnect.net.br">contato@lsconnect.net.br</a></li>
                     <li>(28) 99940-6400</li>
