@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - Contato</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td rowspan="2" width="18%" align="center"><img src="./img/face.jpg" alt="Header Picture" width="115px">
+                </td>
+                <td id="name">
+                    Fulano de Tal
+                </td>
+            </tr>
+            <tr>
+                <td id="occupation">&lt;Designer e Desenvolvedor Web&gt;</td>
+            </tr>
+        </table>
+    </header>
+    <table style="border-spacing: 30px;">
+        <tr align="center" class="menu">
+            <td colspan="2">
+                <ul>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="quemsou.html">Quem Sou</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html" id="active">Contato</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <h1>Entre em contato!</h1>
+                <p>Preencha todos os campos do formulário a seguir e em até 48h lhe responderei.
+                    Será um prazer lhe atender!
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <form>
+                    <p>
+                        <label for="subject">Assunto</label><br>
+                        <select name="assunto" id="subject">
+                            <option value="">Selecione o assunto</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" id="nome" placeholder="Beltrano de Tal">
+                    </p>
+                    <p>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="beltrano@gmail.com">
+                    </p>
+                    <p>
+                        <label for="telefone">Telefone</label><br>
+                        <input type="tel" name="telefone" id="telefone">
+                    </p>
+                    <p>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="message" id="mensagem" cols="30" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Outras formas de contato:</li>
+                    <li>Residente em Cachoeiro de Itapemirim/ES</li>
+                    <li><a href="mailto:contato@lsconnect.net.br">contato@lsconnect.net.br</a></li>
+                    <li>(28) 99940-6400</li>
+                    <li><a href="http://github.com/lsconnect">Github</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <p>Copyright &copy; 2022</p>
+        <img src="./img/ifes.png" alt="" width="100px">
+    </footer>
+</body>
+
+</html>

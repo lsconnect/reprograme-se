@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
+    color: #333;
 }
 
 header {
@@ -21,16 +22,17 @@ header img {
 #name {
     font-size: 52px;
     font-weight: bold;
+    color: white;
 }
 
 #occupation {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+    color: white;
 }
 
 body {
     background-color: #efe2bb;
-    color: #fff;
 }
 
 table {
@@ -41,7 +43,7 @@ table {
 .menu ul li {
     display: inline-block;
     list-style-type: none;
-    margin: 0px 25px;
+    margin: 0px 20px;
 }
 
 .menu a {
@@ -90,6 +92,7 @@ table {
 .hero-txt h2, .hero-txt h3 {
     font-family: 'Caveat', cursive;
     font-size: 32px;
+    color: #fff;
 }
 
 .hero-txt a {
@@ -128,4 +131,11 @@ footer {
     justify-content: center;
 width: 100%;
 height: 245px;
+}
+
+/* temp */
+table,
+tr,
+td {
+    border: 1px solid black;
 }
