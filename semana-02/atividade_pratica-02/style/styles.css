@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@400;700;800&display=swap');
 
+/*table, tr, td {
+    border: 1px solid black;
+}*/
+
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
@@ -11,6 +15,10 @@ body {
     background-color: #efe2bb;
 }
 
+main {
+    max-width: 1280px;
+}
+
 header {
     width: 100%;
     background-image: linear-gradient(rgb(103, 154, 102), rgb(0, 0, 0));
@@ -18,7 +26,6 @@ header {
     align-items: center;
     justify-content: center;
     height: 240px;
-    border-bottom: 3px solid white;
 }
 
 header img {
@@ -28,7 +35,11 @@ header img {
 
 table {
     width: 80%;
-    margin: 0 10% 0 10%;
+    margin: 0 10% 0 10%; 
+}
+
+main table {
+    border-spacing: 30px;
 }
 
 ul {
@@ -36,9 +47,6 @@ ul {
     padding: 0;
 }
 
-main {
-    max-width: 1280px;
-}
 
 #name {
     font-size: 52px;
@@ -52,43 +60,45 @@ main {
     color: white;
 }
 
-.menu li {
+.menu {
+    text-align: center;
+}
+
+.menu ul li {
     display: inline-block;
-    padding-left: 3.5em;
+    padding: 0 1.75em;
     line-height: 35px;
 }
 
 .menu a {
     font-family: 'Caveat', cursive;
-    justify-content: center;
-    align-items: center;
     display: inline-block;
-    color: #333;
     font-size: 32px;
     text-decoration: none;
     padding: 10px 30px;
+    border-radius: 10px;
 }
 
 .menu a:hover {
-    border-radius: 10px;
     background-color: rgb(51, 102, 153);
     color: #fff;
 }
 
 #active {
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 10px;
     background-color: #333;
     color: #fff;
+}
+
+.hero-container td {
+    width: 500px;
+    border-radius: 10px;
+    vertical-align: top;
 }
 
 .hero-txt {
     padding-top: 10px;
     background-color: #333;
     text-align: left;
-    width: 500px;
-    border-radius: 20px;
     white-space: pre-line;
 }
 
@@ -117,8 +127,6 @@ main {
 }
 
 .hero-img img {
-    border-radius: 10px;
-    width: 500px;
     max-height: 300px;
 }
 
@@ -132,8 +140,7 @@ main {
 }
 
 .habilities td {
-    padding: 20px 0 10px 0;
-    text-align: left;
+    width: 13%;
 }
 
 .progress {
