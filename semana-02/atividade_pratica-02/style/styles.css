@@ -89,7 +89,7 @@ ul {
     color: #fff;
 }
 
-.hero-container td {
+.hero-container td, .hero-container img {
     width: 500px;
     border-radius: 10px;
     vertical-align: top;
