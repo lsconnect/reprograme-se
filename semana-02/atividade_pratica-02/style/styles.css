@@ -1,22 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@400;700;800&display=swap');
 
-/* !!!remover
-table,
-tr,
-td {
-    border: 1px solid black;
-} */
-
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     color: #333;
 }
 
 body {
     background-color: #efe2bb;
+    /*max-width: 1280px;*/
 }
 
 header {
@@ -38,17 +31,9 @@ table {
     margin: 0 10% 0 10%;
 }
 
-footer {
-    border-top: 1px solid black;
-    color: black;
-    font-weight: bold;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 245px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 #name {
@@ -63,11 +48,7 @@ footer {
     color: white;
 }
 
-ul {
-    list-style-type: none;
-}
-
-li {
+.menu li {
     display: inline-block;
     padding-left: 3.5em;
     line-height: 35px;
@@ -99,22 +80,23 @@ li {
 }
 
 .hero-txt {
+    padding-top: 10px;
     background-color: #333;
     text-align: left;
     width: 500px;
     border-radius: 20px;
+    white-space: pre-line;
 }
 
 .hero-txt h1 {
-    margin-left: 20px;
-    font-size: 42px;
+    line-height: 20px;
+    margin: 0 20px;
     color: orange;
 }
 
 .hero-txt h2,
 .hero-txt h3 {
     font-family: 'Caveat', cursive;
-    font-size: 32px;
     margin-left: 20px;
     color: #fff;
 }
@@ -179,10 +161,31 @@ li {
 
 .contact td {
     border-top: 1px solid #666;
+    line-height: 25px;
+}
+
+.contact h4 {
+    margin-top: 1em;
 }
 
 .contact  li {
     padding-left: 0;
     margin-bottom: 1px;
     display: block;
+}
+
+footer {
+    border-top: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 245px;
+}
+
+footer p {
+    color: black;
+    font-weight: bold;
 }
