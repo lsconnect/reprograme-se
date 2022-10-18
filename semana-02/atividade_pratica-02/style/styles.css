@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@400;700;800&display=swap');
 
-/*table, tr, td {
+/*table,
+tr,
+td {
     border: 1px solid black;
 }*/
 
@@ -35,11 +37,11 @@ header img {
 
 table {
     width: 80%;
-    margin: 0 10% 0 10%; 
+    margin: 0 10% 0 10%;
 }
 
 main table {
-    border-spacing: 30px;
+    border-spacing: 20px;
 }
 
 ul {
@@ -89,7 +91,8 @@ ul {
     color: #fff;
 }
 
-.hero-container td, .hero-container img {
+.hero-container td,
+.hero-container img {
     width: 500px;
     border-radius: 10px;
     vertical-align: top;
@@ -153,17 +156,16 @@ ul {
     white-space: nowrap;
 }
 
+form p {
+    margin-bottom: 10px;
+}
+
 #assunto,
 #nome,
 #email,
 #telefone,
 #mensagem {
-    width: 250px;
-}
-
-#mensagem {
-    height: 100px;
-    margin-bottom: 10px;
+    width: 240px;
 }
 
 #submit-button {
