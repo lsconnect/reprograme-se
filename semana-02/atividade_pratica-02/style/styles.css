@@ -195,15 +195,12 @@ form p {
 footer {
     border-top: 1px solid black;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    height: 215px;
+    text-align: center;
 }
 
 footer p {
+    margin: 5px 0 ;
     color: black;
     font-weight: bold;
 }
