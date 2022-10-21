@@ -1,0 +1,112 @@
+div.cabecalho {
+    padding-top: 20px;
+}
+
+div.cabecalho h1 span {
+    display: block;
+    font-size: 40px;
+}
+
+
+div.hero {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+div.contrate-me {
+    float: left;
+    font-size: 26px;
+    white-space: pre-line;
+}
+
+div.contrate-me a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+}
+
+div.contrate-me a:hover {
+    color: #333;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+div.hero-img img {
+    float: right;
+    width: 60%;
+}
+
+div#habilidades h4,
+div#idiomas h4,
+div#formacao h4 {
+    font-weight: 400;
+}
+
+div.projetos {
+    width: calc(62vw - 30px);
+}
+
+div.card {
+    display: inline-block;
+    background-color: white;
+    width: 32%;
+}
+
+div.icon img {
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+}
+
+div.content {
+    position: relative;
+    height: 250px;
+    overflow: auto;
+}
+
+div.precos table {
+    width: calc(62vw - 30px);
+    background-color: #dddddd;
+    border-collapse: collapse;
+}
+
+div.precos th,
+div.precos td {
+    width: 33%;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+}
+
+div.precos table th:nth-of-type(2) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #899b89;
+}
+
+div.precos table td:nth-of-type(2) {
+    background-color: #bccdbc;
+}
+
+div.precos td a {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+div.precos td a:hover {
+    border: 1px solid #333;
+    background-color: white;
+    color: #333;
+}
+
+div.rodape {
+    color: white;
+    text-align: center;
+    display: block;
+}
