@@ -13,7 +13,13 @@ body {
 }
 
 hr {
-    border: 6px solid #ddd;
+    border: none;
+    background-color: #ddd;
+    height: 10px;
+}
+
+h4 {
+    font-weight: 400;
 }
 
 div.conteiner {

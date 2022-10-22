@@ -7,7 +7,6 @@ div.cabecalho h1 span {
     font-size: 40px;
 }
 
-
 div.hero {
     background-color: white;
     width: 100%;
@@ -39,12 +38,6 @@ div.hero-img img {
     width: 60%;
 }
 
-div#habilidades h4,
-div#idiomas h4,
-div#formacao h4 {
-    font-weight: 400;
-}
-
 div.projetos {
     width: calc(62vw - 30px);
 }
@@ -57,7 +50,7 @@ div.card {
 
 div.icon img {
     width: 100%;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #ddd;
 }
 
 div.content {
@@ -68,38 +61,41 @@ div.content {
 
 div.precos table {
     width: calc(62vw - 30px);
-    background-color: #dddddd;
+    background-color: #ddd;
     border-collapse: collapse;
 }
 
 div.precos th,
 div.precos td {
     width: 33%;
-    height: 80px;
     text-align: center;
-    border: 1px solid #eeeeee;
+    border: 1px solid #eee;
     padding: 20px;
 }
 
-div.precos table th:nth-of-type(2) {
+div.precos th:nth-of-type(2) {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 22px;
-    background-color: #899b89;
+    font-size: 26px;
+    background-color: rgb(137, 155, 137);
 }
 
-div.precos table td:nth-of-type(2) {
-    background-color: #bccdbc;
+div.precos td:nth-of-type(2) {
+    background-color: rgb(188, 205, 188);
 }
 
-div.precos td a {
+div.precos tfoot td {
+    height: 80px;
+}
+
+div.precos tfoot a {
     background-color: #333;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
 }
 
-div.precos td a:hover {
+div.precos tfoot a:hover {
     border: 1px solid #333;
     background-color: white;
     color: #333;
