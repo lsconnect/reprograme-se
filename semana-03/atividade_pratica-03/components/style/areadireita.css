@@ -38,10 +38,6 @@ div.hero-img img {
     width: 60%;
 }
 
-div.projetos {
-    width: calc(62vw - 30px);
-}
-
 div.card {
     display: inline-block;
     background-color: white;
@@ -60,7 +56,6 @@ div.content {
 }
 
 div.precos table {
-    width: calc(62vw - 30px);
     background-color: #ddd;
     border-collapse: collapse;
 }
@@ -99,6 +94,69 @@ div.precos tfoot a:hover {
     border: 1px solid #333;
     background-color: white;
     color: #333;
+}
+
+div.contato {
+    background-color: gray;
+    padding: 20px;
+}
+
+div.contato table {
+    width: calc(62vw - 70px);
+    border-collapse: collapse;
+}
+
+div.contato td {
+    text-align: center;
+    width: 33%;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+div.contato td:nth-of-type(2) {
+    background-color: rgb(137, 155, 137);
+}
+
+div.contato td,
+div.contato td a {
+    text-decoration: none;
+    color: white;
+}
+
+div.contato img {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70px;
+    display: block;
+}
+
+div.contato form > div {
+    margin: 1em 0;
+}
+
+div.contato form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+div.contato form input:not([type="submit"]),
+div.contato form select {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 10px;
+}
+
+div.contato input[type="submit"] {
+    margin-top: 20px;
+    border: none;
+    padding: 20px 50px;
+    background-color: #222;
+    color: white;
+}
+
+#mensagem {
+    width: 100%;
 }
 
 div.rodape {

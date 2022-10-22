@@ -21,34 +21,32 @@
         </div>
         <h2 class="mx2">LEANDRO C SILVA</h2>
 
-        <div class="menu">
-            <p class="mt2 mx2">
-                <img src="./components/img/sobre.svg" alt="SOBRE">
-                <a href="#sobre">SOBRE</a>
-            </p>
-            <p class="mt2 mx2">
-                <img src="./components/img/projetos.svg" alt="PROJETOS">
-                <a href="#projetos">PROJETOS</a>
-            </p>
-            <p class="mt2 mx2">
-                <img src="./components/img/formacao.svg" alt="PREÇOS">
-                <a href="#precos">PREÇOS</a>
-            </p>
-            <p class="mt2 mx2">
-                <img src="./components/img/contato.svg" alt="CONTATO">
-                <a href="#contato">CONTATO</a>
-            </p>
-        </div>
-        <div class="sociais">
-            <p class="mt5 mx2">
-                <a href="#"><img src="./components/img/social/facebook.svg" alt="facebook"></a>
-                <a href="#"><img src="./components/img/social/instagram.svg" alt="instagram"></a>
-                <a href="#"><img src="./components/img/social/linkedin.svg" alt="linkedin"></a>
-                <a href="#"><img src="./components/img/social/snapchat.svg" alt="snapchat"></a>
-                <a href="#"><img src="./components/img/social/pinterest.svg" alt="pinterest"></a>
-                <a href="#"><img src="./components/img/social/twitter.svg" alt="twitter"></a>
-            </p>
-        </div>
+
+        <p class="menu mt2 mx2">
+            <img src="./components/img/sobre.svg" alt="SOBRE">
+            <a href="#sobre">SOBRE</a>
+        </p>
+        <p class="menu mt2 mx2">
+            <img src="./components/img/projetos.svg" alt="PROJETOS">
+            <a href="#projetos">PROJETOS</a>
+        </p>
+        <p class="menu mt2 mx2">
+            <img src="./components/img/formacao.svg" alt="PREÇOS">
+            <a href="#precos">PREÇOS</a>
+        </p>
+        <p class="menu mt2 mx2">
+            <img src="./components/img/contato.svg" alt="CONTATO">
+            <a href="#contato">CONTATO</a>
+        </p>
+
+        <p class="sociais mt5 mx2">
+            <a href="#"><img src="./components/img/social/facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="./components/img/social/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="./components/img/social/linkedin.svg" alt="linkedin"></a>
+            <a href="#"><img src="./components/img/social/snapchat.svg" alt="snapchat"></a>
+            <a href="#"><img src="./components/img/social/pinterest.svg" alt="pinterest"></a>
+            <a href="#"><img src="./components/img/social/twitter.svg" alt="twitter"></a>
+        </p>
     </div>
     <div class="areadireita">
         <div class="cabecalho">
@@ -259,16 +257,65 @@
         <hr id="contato" class="mt3">
         <h2 class="my3">#entre_em_contato</h2>
         <div class="contato">
-
+            <table>
+                <tr>
+                    <td>
+                        <img src="./components/img/email.svg" alt="email">
+                        <a href="mailto:contato@lsconnect.net.br">contato@lsconnect.net.br</a>
+                    </td>
+                    <td>
+                        <img src="./components/img/local.svg" alt="localização">
+                        <a
+                            href="https://www.google.com/maps/dir/?api=1&destination=Av.+José+Félix+Cheim,+1080+-+Otton+Marins,+Cachoeiro+de+Itapemirim+-+ES,+29301-826">
+                            Cachoeiro de Itapemirim/ES
+                        </a>
+                    </td>
+                    <td>
+                        <img src="./components/img/telefone.svg" alt="telefone">
+                        <a href="tel:+5528999406400">(28) 99940-6400</a>
+                    </td>
+                </tr>
+            </table>
+            <form>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="username" id="name" placeholder="Fulano de Tal">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="email@email.com">
+                </div>
+                <div>
+                    <label for="birthday">Data de nascimento</label>
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <select name="assunto" id="assunto" required>
+                        <option value="" disabled selected>Selecione o assunto</option>
+                        <option value="">Suporte Técnico</option>
+                        <option value="">Reclamação</option>
+                        <option value="">Sugestão</option>
+                        <option value="">Dúvida</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
         </div>
         <form class="my3">
 
         </form>
 
         <div class="rodape bg-dark p5">
-            Copyright &copy; 2022
-            Instituto Federal do Espirito Santo
-            Todos os direitos reservados
+            <p>Copyright &copy; 2022</p>
+            <p>Instituto Federal do Espirito Santo</p>
+            <p>Todos os direitos reservados</p>
         </div>
     </div>
 

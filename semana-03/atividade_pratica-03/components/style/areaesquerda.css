@@ -8,19 +8,19 @@ div.side-img img {
     border-radius: 10px;
 }
 
-div.menu p>img {
+p.menu img {
     float: left;
     margin-right: 10px;
     width: 25px;
 }
 
-div.menu p>a {
+p.menu a {
     text-decoration: none;
     display: inline-block;
     color: #333;
 }
 
-div.sociais p img {
+p.sociais img {
     width: 25px;
     padding-left: 3px;
 }

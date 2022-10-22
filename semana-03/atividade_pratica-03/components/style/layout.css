@@ -40,3 +40,9 @@ div.areadireita {
     margin-left: 18vw;
     padding: 0 15px;
 }
+
+div.contato,
+div.projetos,
+div.precos {
+    width: calc(62vw - 30px);
+}
