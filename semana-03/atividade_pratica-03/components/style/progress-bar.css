@@ -4,7 +4,7 @@
     height: 50px;
 }
 
-.percent {
+.progress-bar div {
     background-color: #222;
     color: white;
     text-align: center;

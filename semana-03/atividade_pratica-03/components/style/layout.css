@@ -18,16 +18,13 @@ hr {
     height: 10px;
 }
 
-h4 {
-    font-weight: 400;
-}
-
 div.conteiner {
     width: 80vw;
     margin: 0 auto;
 }
 
 div.areaesquerda {
+    padding: 20px;
     float: left;
     background-color: white;
     width: 18vw;
